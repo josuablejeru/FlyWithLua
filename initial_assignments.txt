@@ -1,0 +1,28 @@
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- --  FlyWithLua: SaveInitialAssignments.ini version 2.7.4 build 2018-10-04  -- --
+-- --  The initial assignments are stored in this file. -- --- -- -- -- -- -- -- --
+-- -- 8<  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+clear_all_axis_assignments()
+set_axis_assignment( 0, "roll", "normal" )
+set_axis_assignment( 1, "pitch", "normal" )
+set_axis_assignment( 3, "throttle", "normal" )
+
+clear_all_button_assignments()
+
+-- setting nullzone, sensitivity and augment
+set( "sim/joystick/joystick_pitch_nullzone",      0.000 )
+set( "sim/joystick/joystick_roll_nullzone",       0.000 )
+set( "sim/joystick/joystick_heading_nullzone",    0.000 )
+set( "sim/joystick/joystick_pitch_sensitivity",   0.500 )
+set( "sim/joystick/joystick_roll_sensitivity",    0.500 )
+set( "sim/joystick/joystick_heading_sensitivity", 0.500 )
+set( "sim/joystick/joystick_pitch_augment",       0.500 )
+set( "sim/joystick/joystick_roll_augment",        0.500 )
+set( "sim/joystick/joystick_heading_augment",     0.500 )
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- >8 -- --
+
+-- PLANE_ICAO == "C172"
+-- PLANE_TAILNUMBER == "N172SP"
+-- AIRCRAFT_FILENAME == "Cessna_172SP_G1000.acf"
