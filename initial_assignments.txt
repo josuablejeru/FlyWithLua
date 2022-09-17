@@ -4,8 +4,9 @@
 -- -- 8<  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 clear_all_axis_assignments()
-set_axis_assignment( 0, "roll", "normal" )
-set_axis_assignment( 1, "pitch", "normal" )
+set_axis_assignment( 0, "right toe brake", "normal" )
+set_axis_assignment( 1, "left toe brake", "normal" )
+set_axis_assignment( 2, "yaw", "normal" )
 set_axis_assignment( 3, "throttle", "normal" )
 
 clear_all_button_assignments()
